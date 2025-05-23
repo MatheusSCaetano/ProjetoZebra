@@ -7,12 +7,13 @@
     <meta name="keyword" content="palavras,chave,do,meu,site">
     <meta name="description" content="Descricao do site">
 
-    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo\style.css">
 
     <title>Projeto</title>
 </head>
 <body>
     <header>
+
         <div class="center"> 
         <div class="logo left"><img src="img\logo.png" width="70"> </div>
         <nav class="desktop  ">
@@ -47,8 +48,17 @@
     </section>
 
     <section class="area-principal"> 
-    <div class="center"> 
-    <h1>Baixe a planilha de controle financeiro aqui</h1>
+    <div class="center">
+        <h1>Baixe a planilha de controle financeiro aqui</h1>
+        <div class="meio-area-principal">
+        <img src="img\img-excell.png">
+            <div class="texto-meio"> <h1>Minhas Economias</h1>
+            <p> Ficou mais fácil organizar suas contas</p>
+        </div><!-- div texto meio--> 
+        </div><!-- div meio area principal--> 
+        <div class="link-planilha">
+        <a href="https://www.eduardofeldberg.com.br/_files/ugd/c8f26f_1ee54cc9fb6c460b8cd61407aa1be441.xlsx?dn=Planilha%20Financeira%20do%20Primo%20Pobre%202023.xlsx" download="https://www.eduardofeldberg.com.br/_files/ugd/c8f26f_1ee54cc9fb6c460b8cd61407aa1be441.xlsx?dn=Planilha%20Financeira%20do%20Primo%20Pobre%202023.xlsx"> Baixar Planilha </a>      
+        </div>
     </div> <!-- center-->    
     </section> <!-- area principal-->
 
@@ -56,7 +66,7 @@
     <section class="produtos"> 
     <div class="center">
 
-    <h2>Estratégias</h2>
+    <h2>Produtos</h2>
 
     <div class="box-produto">
         <div class="topo">
@@ -64,7 +74,7 @@
         <h2> Orçamentos mensais</h2>
     </div><!-- class topo-->
         <p>Crie seu planejamento financeiro, definindo limites de gastos e alertas, para garantir que 
-        você terá disciplina para conquistar seu plano! </p>        
+        você terá disciplina para conquistar seu plano! </p> 
     </div><!-- box produto-->        
     
     <div class="box-produto">

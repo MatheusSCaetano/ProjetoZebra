@@ -24,11 +24,11 @@ font-family: 'Courier New', Courier, monospace;
 header{
     background-color: #0FD15D;
     padding: 40px 0;
-    height: 120px;
+    height: 50px;
 }
 
 .logo{
-margin-top: 1px;
+margin: 0 auto;
 }
 
 
@@ -62,8 +62,13 @@ padding: 2px;
 }
 
 .produtos{
-    background-color: #AED581;
+    background-color: #262F3F;
     margin-top: 15px;
+    text-decoration:solid;
+    color: white;
+    padding: 20px;
+    border-radius: 1%;
+    border: solid black 2px;
 }
 .produtos h2{
     text-align: center;
@@ -82,4 +87,25 @@ padding: 2px;
 
 footer{
      padding: 40px 15px 15px 15px;
+}
+
+.meio-area-principal{
+display: flex;
+align-items: center;
+}
+
+.link-planilha{
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    
+}
+.link-planilha a{
+    text-decoration: none;
+    color: white;
+    border: solid black 1px;
+    border-radius: 5%;
+    font-size: 19px;
+    background-color: #262F3F;
+    padding: 1px;
+
 }

@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Courier New', Courier, monospace;
+font-family:'Courier New', Courier, monospace;
 }
 
 .center{
@@ -22,15 +22,17 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 header{
-    background-color: #0FD15D;
+    background-color: #262F3F;
     padding: 40px 0;
     height: 50px;
+    border: solid black 1px;
 }
 
-.logo{
-margin: 0 auto;
-}
 
+.logo img{
+    width: 40px;
+
+}
 
 
 .mobile{
@@ -46,19 +48,28 @@ nav.desktop li{
     padding: 0 15px;
 }
 nav.desktop a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
 nav.desktop input{
     float: right;
-margin-right: 10px;
-padding: 2px;
+    margin-right: 10px;
+    padding: 2px;
+    background-color: #19448f;
+    color: white;
+    border: double 2px white;
 }
 
 .area-principal{
     margin-top: 10px;
+}
+.area-principal h1{
+    text-align: center;
+}
+.meio-area-principal img{
+    width:50%;
 }
 
 .produtos{
@@ -82,8 +93,34 @@ padding: 2px;
 
 
 .artigos{
-    padding: 40px 15px 15px 15px;
+    padding: 0px 15px 15px 15px;
+    display: inline-block;
+    width: 80%;
+    border: 3px black solid;
+    border-radius: 2%;
+    margin-left: 80px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #262F3F;
+    color: white;
+
 }
+
+
+.menu-artigos{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+
+}
+.box-artigos{
+    width: 33.3%;
+}
+
+.menu-artigos img{
+    width: 100%;
+}
+
 
 footer{
      padding: 40px 15px 15px 15px;
@@ -107,5 +144,34 @@ align-items: center;
     font-size: 19px;
     background-color: #262F3F;
     padding: 1px;
+
+}
+
+
+
+@media screen and (max-width: 760px){
+
+nav.desktop{
+    display: none;
+}
+nav.mobile{
+    display:block;
+}
+nav.mobile ul{
+    display: none;
+}
+.botao-menu img{
+    width: 10%;
+    cursor: pointer;
+    float: right;
+}
+
+.menu-artigos img{
+    width: 100%;
+}
+
+.menu-artigos{
+    display: block;
+}
 
 }

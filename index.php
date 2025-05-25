@@ -15,8 +15,8 @@
     <header>
 
         <div class="center"> 
-        <div class="logo left"><img src="img\logo.png" width="70"> </div>
-        <nav class="desktop  ">
+        <div class="logo left"><img src="img\logo.png"> </div>
+        <nav class="desktop  right">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Sobre</a></li>
@@ -27,11 +27,16 @@
         </ul>
         </nav> 
         <nav class="mobile right">
+            <div class="botao-menu">
+                <img src="img\botao-menu.png">
+            </div>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Sobre</a></li>
             <li><a href="">Serviços</a></li>
             <li><a href="">Contatos</a></li>
+            <input type="button" value="entrar"/>
+            <input type="button" value="cadastrar"/>
         </ul>
         </nav> 
         </div><!-- center -->
@@ -103,23 +108,27 @@
         
 
     <section class="artigos">
-
-    <div class="center"> 
-
-    <div class="w33 left box-artigo">
-        <h2>Artigo</h2> 
+            <h1>Artigos</h1>
+        <div class="menu-artigos">
+    <div class="box-artigo"> 
+        <a href="https://minhaseconomias.com.br/blog/planejamento-financeiro/mercado-financeiro
+        -dicas-essenciais-para-quem-esta-comecando"> <img src="img\artigo1.png" ></img> </a>
+        <p>Mercado financeiro: dicas essenciais para quem está começando</p>
     </div><!-- box artigo-->
    
-    <div class="w33 left box-artigo">
-        <h2>Artigo</h2> 
+    <div class=" box-artigo">
+        <a href="https://minhaseconomias.com.br/blog/planejamento-financeiro/mercado-financeiro
+        -dicas-essenciais-para-quem-esta-comecando"> <img src="img\artigo2.png" ></img> </a>
+        <p>Mercado financeiro: dicas essenciais para quem está começando</p>
     </div><!-- box artigo-->
 
-    <div class="w33 left box-artigo">
-        <h2>Artigo</h2> 
+    <div class=" box-artigo"> 
+        <a href="https://minhaseconomias.com.br/blog/planejamento-financeiro/mercado-financeiro
+        -dicas-essenciais-para-quem-esta-comecando"> <img src="img\artigo1.png" ></img> </a>
+        <p>Mercado financeiro: dicas essenciais para quem está começando</p>
     </div><!-- box artigo-->
 
-    </div><!-- center -->
-
+    </div><!--div artigos-->
     </section><!-- section artigos-->
 
     <footer>

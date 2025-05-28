@@ -1,0 +1,15 @@
+{
+    "name": "ceounset/zebrainveste",
+    "description": "site de investimentos",
+    "autoload": {
+        "psr-4": {
+            "Ceounset\\Zebrainveste\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "matheus"
+        }
+    ],
+    "require": {}
+}
